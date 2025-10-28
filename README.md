@@ -2,6 +2,8 @@
 
 A complete end-to-end machine learning system for predicting Air Quality Index (AQI) in Karachi using serverless architecture.
 
+[![Feature Pipeline](https://github.com/Danish-Ahmed-Head/aqi-predictor/actions/workflows/feature-pipeline.yml/badge.svg)](https://github.com/Danish-Ahmed-Head/aqi-predictor/actions/workflows/feature-pipeline.yml)
+[![Training Pipeline](https://github.com/Danish-Ahmed-Head/aqi-predictor/actions/workflows/training-pipeline.yml/badge.svg)](https://github.com/Danish-Ahmed-Head/aqi-predictor/actions/workflows/training-pipeline.yml)
 ![AQI Predictor](https://img.shields.io/badge/AQI-Predictor-blue)
 ![Python](https://img.shields.io/badge/Python-3.10-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
