@@ -6,7 +6,6 @@ joblib==1.3.2
 
 # Feature Store & ML Platform
 hopsworks==4.2.*
-hsfs==4.2.*
 
 # API Requests
 requests==2.31.0
