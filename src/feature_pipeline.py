@@ -180,12 +180,20 @@ class AQIFeaturePipeline:
         """
         try:
             print("Connecting to Hopsworks...")
+            import hopsworks
+    
+            # Log in to project
             self.project = hopsworks.login(api_key_value=self.hopsworks_api_key)
-            self.fs = self.project.get_feature_store()
-            print("✓ Connected to Feature Store")
+    
+            # ✅ FIX: explicitly pass project name to avoid hive_endpoint error
+            self.fs = self.project.get_feature_store(name=self.project.name)
+    
+            print(f"✓ Connected to Feature Store: {self.fs.name}")
+    
         except Exception as e:
             print(f"✗ Error connecting to Hopsworks: {e}")
             raise
+
     
     def upload_to_feature_store(self, df):
         """
