@@ -1,0 +1,82 @@
+# Environment Variables
+.env
+.env.local
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Data files
+data/*.csv
+data/*.json
+data/backup_*
+
+# Model files
+models/*.pkl
+models/*.h5
+models/*.json
+
+# Reports
+reports/*.png
+reports/*.pdf
+
+# Logs
+*.log
+logs/
+
+# Hopsworks cache
+.hopsworks/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+temp/
+
+# OS files
+Thumbs.db
+.DS_Store
