@@ -20,7 +20,7 @@ This project builds a comprehensive AQI prediction system that:
 
 ```
 ┌─────────────────┐
-│   AQICN API     │
+│ OpenWeather API │
 │  (Data Source)  │
 └────────┬────────┘
          │
@@ -77,7 +77,7 @@ This project builds a comprehensive AQI prediction system that:
 | **Feature Store** | Hopsworks |
 | **Web Framework** | Streamlit |
 | **Automation** | GitHub Actions |
-| **Data API** | AQICN |
+| **Data API** | OpenWeather |
 | **Visualization** | Plotly, Matplotlib |
 | **Model Explainability** | SHAP |
 
@@ -87,7 +87,7 @@ This project builds a comprehensive AQI prediction system that:
 - Python 3.10 or higher
 - Git
 - GitHub account
-- AQICN API token
+- OpenWeather API token
 - Hopsworks account
 
 ### Step 1: Clone Repository
@@ -120,15 +120,15 @@ cp .env.template .env
 
 Edit `.env` and add your credentials:
 ```
-AQICN_TOKEN=your_aqicn_token_here
+OpenWeather_TOKEN=your_openweather_token_here
 HOPSWORKS_API_KEY=your_hopsworks_key_here
 CITY_NAME=karachi
 ```
 
 ## 🔑 Getting API Keys
 
-### AQICN API Token
-1. Visit: https://aqicn.org/data-platform/token/
+### OpenWeather API Token
+1. Visit: (https://home.openweathermap.org/api_keys)
 2. Fill in the form with your details
 3. Check your email for the token
 4. Add to `.env` file
@@ -148,7 +148,7 @@ python src/feature_pipeline.py
 ```
 
 This will:
-- Fetch current AQI data from AQICN
+- Fetch current AQI data from OpenWeather
 - Process and engineer features
 - Upload to Hopsworks Feature Store
 
@@ -185,7 +185,7 @@ Access the dashboard at: http://localhost:8501
 1. Go to your GitHub repository
 2. Navigate to: Settings → Secrets and variables → Actions
 3. Add the following secrets:
-   - `AQICN_TOKEN`: Your AQICN API token
+   - `OpenWeather_TOKEN`: Your OpenWeather API token
    - `HOPSWORKS_API_KEY`: Your Hopsworks API key
 
 ### Automated Pipelines
@@ -240,9 +240,10 @@ aqi-predictor/
 
 | Model | Test RMSE | Test MAE | Test R² |
 |-------|-----------|----------|---------|
-| Random Forest | TBD | TBD | TBD |
-| Gradient Boosting | TBD | TBD | TBD |
-| Ridge Regression | TBD | TBD | TBD |
+| Ridge Regression | 9.14 | 7.53 | 0.741 |
+| Random Forest | 10.32 | 8.08 | 0.669 |
+| Gradient Boosting | 9.70 | 7.61 | 0.708 |
+| Lasso Regression | 10.96 | 8.70 | 0.627 |
 
 *(Metrics will be updated after first training)*
 
@@ -316,7 +317,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## 🙏 Acknowledgments
 
 - 10Pearls for the internship opportunity
-- AQICN for providing the air quality data API
+- OpenWeather for providing the air quality data API
 - Hopsworks for the feature store platform
 - Streamlit for the dashboard framework
 
