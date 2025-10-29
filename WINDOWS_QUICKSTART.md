@@ -33,9 +33,9 @@ If not installed → Download from https://git-scm.com/download/win
 
 ## 🔑 **STEP 2: Get API Keys (15 minutes)**
 
-### A) AQICN API Token
+### A) OpenWeather API Token
 
-1. Open browser: **https://aqicn.org/data-platform/token/**
+1. Open browser: **(https://home.openweathermap.org/api_keys)**
 2. Fill form:
    - Name: Your Name
    - Email: Your Email  
@@ -99,7 +99,7 @@ This will:
 Open `.env` in Notepad and add your keys:
 
 ```
-AQICN_TOKEN=paste_your_aqicn_token_here
+OpenWeather_TOKEN=paste_your_openweather_token_here
 HOPSWORKS_API_KEY=paste_your_hopsworks_key_here
 CITY_NAME=karachi
 ```
@@ -214,7 +214,7 @@ git push -u origin main
 2. Click **Settings** → **Secrets and variables** → **Actions**
 3. Click **New repository secret**
 4. Add two secrets:
-   - Name: `AQICN_TOKEN`, Value: your token
+   - Name: `OpenWeather_TOKEN`, Value: your token
    - Name: `HOPSWORKS_API_KEY`, Value: your key
 
 ### Enable GitHub Actions
@@ -335,61 +335,3 @@ aqi-predictor/
 ```
 
 ---
-
-## 🎓 **For Your Internship Submission**
-
-### What to Submit:
-1. **GitHub Repository Link**
-2. **Live Dashboard Link** (Streamlit Cloud - see below)
-3. **Project Report** (create from README.md)
-4. **Demo Video** (record dashboard usage)
-
-### Deploy to Streamlit Cloud (Free):
-1. Go to **https://streamlit.io/cloud**
-2. Sign in with GitHub
-3. Click "New app"
-4. Select your repository
-5. Main file: `app/streamlit_app.py`
-6. Add secrets (Hopsworks API key)
-7. Deploy!
-
----
-
-## ⏰ **Timeline**
-
-**Day 1-2:** Setup + Initial data collection
-**Day 3-7:** Collect 7 days of data (automated)
-**Day 8:** Train model, run EDA
-**Day 9:** Deploy dashboard
-**Day 10:** Prepare documentation and demo
-
----
-
-## 🆘 **Need Help?**
-
-If you get stuck:
-1. Check the error message
-2. Look in WINDOWS_QUICKSTART.md (this file)
-3. Check README.md for detailed info
-4. Check VALIDATION_CHECKLIST.md
-5. Ask me! Tell me exactly what error you see
-
----
-
-## ✅ **Success Checklist**
-
-Before submission, verify:
-- [ ] ✅ Data collected (minimum 100 samples)
-- [ ] ✅ Model trained successfully
-- [ ] ✅ Dashboard works locally
-- [ ] ✅ GitHub repository created
-- [ ] ✅ GitHub Actions enabled
-- [ ] ✅ EDA completed
-- [ ] ✅ Reports generated
-- [ ] ✅ README.md updated
-- [ ] ✅ Dashboard deployed online (optional)
-- [ ] ✅ Demo video recorded (optional)
-
----
-
-**🎉 You're all set! Good luck with your internship project!**
