@@ -87,7 +87,7 @@ This project builds a comprehensive AQI prediction system that:
 - Python 3.10 or higher
 - Git
 - GitHub account
-- OpenWeather API token
+- OpenWeather API key
 - Hopsworks account
 
 ### Step 1: Clone Repository
@@ -120,17 +120,17 @@ cp .env.template .env
 
 Edit `.env` and add your credentials:
 ```
-OpenWeather_TOKEN=your_openweather_token_here
+OpenWeather_KEY=your_openweather_key_here
 HOPSWORKS_API_KEY=your_hopsworks_key_here
 CITY_NAME=karachi
 ```
 
 ## 🔑 Getting API Keys
 
-### OpenWeather API Token
+### OpenWeather API Key
 1. Visit: (https://home.openweathermap.org/api_keys)
 2. Fill in the form with your details
-3. Check your email for the token
+3. Generate key and wait for it to become active
 4. Add to `.env` file
 
 ### Hopsworks API Key
@@ -185,7 +185,7 @@ Access the dashboard at: http://localhost:8501
 1. Go to your GitHub repository
 2. Navigate to: Settings → Secrets and variables → Actions
 3. Add the following secrets:
-   - `OpenWeather_TOKEN`: Your OpenWeather API token
+   - `OpenWeather_KEY`: Your OpenWeather API key
    - `HOPSWORKS_API_KEY`: Your Hopsworks API key
 
 ### Automated Pipelines
