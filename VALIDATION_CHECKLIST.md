@@ -9,7 +9,6 @@
 - [x] **Hopsworks** - Feature Store integration complete
 - [x] **GitHub Actions** - CI/CD pipelines configured
 - [x] **Streamlit** - Web dashboard implemented
-- [x] **Flask** - ❌ NOT USED (Streamlit chosen instead - ACCEPTABLE alternative)
 - [x] **AQICN API** - Data source configured
 - [x] **SHAP** - Model explainability implemented
 - [x] **Git** - Version control
@@ -283,10 +282,3 @@ Total features created: **40+ features**
 
 ---
 
-**What's NOT included (optional enhancements):**
-- Unit tests (can add if required)
-- Docker containerization
-- Multiple city support
-- Deep learning models (TensorFlow available but not implemented)
-
-**Overall Status: 🎯 PROJECT COMPLETE AND VALIDATED**
