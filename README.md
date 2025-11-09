@@ -363,22 +363,16 @@ python src/feature_pipeline.py --backfill 7
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
----
-
 ## 👤 Author
 
 **Danish Ahmed**
 - 🎓 University: Karachi Institute of Economics & Technology
-- 📧 Email: danishahmed.bscs21@iba-suk.edu.pk
-- 💼 Domain: Data Sciences | CGPA: 3.53
+- 📧 Email: danish.ahmed.1623@gmail.com
+- 💼 Domain: Data Sciences | CGPA: 3.54
 - 🔗 GitHub: https://github.com/Danish-Ahmed-Head
 
 **Project:** 10Pearls Shine Data Science Internship  
-**Submission Date:** November 2025
+**Submission Date:** 9 November 2025
 
 ---
 
@@ -395,7 +389,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 For questions or support:
 - Open an issue on GitHub
-- Email: danishahmed.bscs21@iba-suk.edu.pk
+- Email: danish.ahmed.1623@gmail.com
 
 ---
 
