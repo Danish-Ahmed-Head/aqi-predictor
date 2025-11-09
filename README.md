@@ -257,9 +257,6 @@ aqi-predictor/
 │   ├── utils.py                      # Dashboard utilities
 │   └── model/                        # Model artifacts
 │
-├── notebooks/
-│   └── 01_exploratory_data_analysis.py  # EDA
-│
 ├── data/                             # Local data backups
 ├── models/                           # Trained models
 ├── reports/                          # Training reports & plots
