@@ -320,6 +320,17 @@ aqi-predictor/
    - Weather interactions
 
 ---
+## Limitations
+
+- The model is currently trained for Karachi only; extending to other cities requires retraining with local data.
+
+- Predictions depend on external data quality and availability: missing or inaccurate sensor data may reduce performance.
+
+- Seasonal drift, extreme pollution events (e.g., fires, dust storms) may degrade model accuracy; periodic retraining is recommended.
+
+- Free API tiers have usage limits, restricting large-scale backfill or high-frequency real-time updates.
+
+---
 
 ## 📝 Future Improvements
 
