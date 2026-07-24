@@ -21,7 +21,7 @@ This project builds a comprehensive AQI prediction system that:
 - ✅ Runs completely serverless with CI/CD automation
 
 **Author:** Danish Ahmed | Karachi Institute of Economics & Technology  
-**Domain:** Data Sciences | CGPA: 3.53  
+**Domain:** Data Sciences | CGPA: 3.54  
 **Program:** 10Pearls Shine Internship
 
 ---
