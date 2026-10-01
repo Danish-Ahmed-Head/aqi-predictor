@@ -21,7 +21,7 @@ This project builds a comprehensive AQI prediction system that:
 - ✅ Runs completely serverless with CI/CD automation
 
 **Author:** Danish Ahmed | Karachi Institute of Economics & Technology  
-**Domain:** Data Sciences | CGPA: 3.54  
+**Domain:** Data Sciences  
 **Program:** 10Pearls Shine Internship
 
 ---
@@ -368,7 +368,7 @@ python src/feature_pipeline.py --backfill 7
 **Danish Ahmed**
 - 🎓 University: Karachi Institute of Economics & Technology
 - 📧 Email: danish.ahmed.1623@gmail.com
-- 💼 Domain: Data Sciences | CGPA: 3.54
+- 💼 Domain: Data Sciences
 - 🔗 GitHub: https://github.com/Danish-Ahmed-Head
 
 **Project:** 10Pearls Shine Data Science Internship  
@@ -408,7 +408,7 @@ For questions or support:
 
 ## 🏆 Key Achievements
 
-- ✅ 74% prediction accuracy (R² = 0.741)
+- ✅ Ridge Regression R² = 0.741 on the held-out test set
 - ✅ 29+ engineered features
 - ✅ 4 ML models trained and compared
 - ✅ 100% automated pipeline
